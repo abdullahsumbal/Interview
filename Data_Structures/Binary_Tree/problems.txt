@@ -1,0 +1,5 @@
+1. Check if it is a binary Search tree?
+2. Check if the tree is balanced?
+3. INORDER PREDECESSOR in Binary Search Tree.
+4. INORDER SUCCESSOR in binary search tree.
+5.
