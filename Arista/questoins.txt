@@ -1,0 +1,7 @@
+1. what does it means to be immutable for string?
+2. what is virtual in C++?
+3. where are the functions stored in C++?
+4. object calling a virtual function?
+5. merge linked list
+6. find the missing integer in a sorted list?
+7. smart pointers.
