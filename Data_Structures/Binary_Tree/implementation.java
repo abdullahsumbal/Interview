@@ -40,7 +40,7 @@ class BinaryTree{
   }
 }
 
-public class implementation{
+public class Implementation{
     public static void main(String [] args){
       BinaryTree bt = new BinaryTree();
       bt.add(6);
@@ -50,9 +50,9 @@ public class implementation{
       bt.add(5);
       bt.add(7);
       bt.add(9);
+      NodeA j = new NodeA(1);
 
       System.out.println(bt.root.left.right.value);
     }
-
 
 }
