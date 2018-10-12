@@ -22,6 +22,18 @@ Map<String, Integer> map = new HashMap<String, Integer>();
 HashSet<String> h = new HashSet<String>();
 
 // adding and retiring is O(1)
+
+// Iterate in java
+for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+    System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+}
+
+// create an iterator
+Iterator iterator = newset.iterator();
+
+for (String temp : hset) {
+   System.out.println(temp);
+}
 ```
 
 
@@ -81,4 +93,5 @@ ptr = st.insert(20);
 if (ptr.second)
     cout << "The element was newly inserted" ;
 else cout  << "The element was already present";
+
 ```
