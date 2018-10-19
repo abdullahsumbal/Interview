@@ -31,3 +31,22 @@ while(left < right):
 print((("").join(list)).replace("a","."))
 
 print("fdsf".replace("h","d"))
+
+
+def reverse(expression):
+    if(expression == ""):
+        return expression
+    expression = expression.replace(".","a")
+    splitList = re.split("([+-/*])", expression)
+    leftIndex = 0;
+    rightIndex = len(splitList) -1
+
+    while(leftIndex < rightIndex):
+        temp = splitList[leftIndex]
+        splitList[leftIndex] = splitList[rightIndex]
+        splitList[rightIndex] = temp
+        leftIndex = leftIndex + 1
+        rightIndex = rightIndex - 1
+
+    newExp = "".join(splitList)
+    return newExp.replace("a",".")
