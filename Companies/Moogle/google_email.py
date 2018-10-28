@@ -8,7 +8,7 @@ def prePrcessLcoal(local):
         plusindex = newLocal.find('+')
         return newLocal[:plusindex]
 
-emails = ["a@gmail.com", "b+@gmail.com", "b/3@gmail.com" , "b@gmail..com", "b@gmail.com.com", "b@gmail"]
+emails = ["a@gmail.com", "b+@gmail.com", "b/3@gmail.com" , "b@gmail..com", "b@gmail.com.com", "b.f.f..f.f@gmail"]
 #emails = ['a.b@example.com', 'x@example.com', 'ab+1@example.com', 'y@example.com', 'y@example.com', 'y@example.com', ]
 
 local_list = []
