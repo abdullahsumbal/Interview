@@ -7,3 +7,5 @@ When you train the model and test it. Then you get the accuracy.
 Confidence is associated with the each point predict. for eg 3 closest neighbor was ++-. confidence that it is a + is 2/3.
 
 To find the shortest difference we use the Euclid distance. 
+
+e.g breast cancer

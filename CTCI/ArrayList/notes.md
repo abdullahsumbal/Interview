@@ -17,15 +17,21 @@ HashMap<Object, Object> map = new HashMap<Object, Object>();
 
 // Better way is to be explicit
 Map<String, Integer> map = new HashMap<String, Integer>();
+map.put(_, _)
 
 // HashSet
 HashSet<String> h = new HashSet<String>();
+h.add(_)
 
 // adding and retiring is O(1)
 
 // Iterate in java
 for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
     System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+}
+
+for (String key : hashMap.keySet()) {
+    System.out.println("Key: " + key + ", Value: " + map.get(key));
 }
 
 // create an iterator
@@ -93,5 +99,17 @@ ptr = st.insert(20);
 if (ptr.second)
     cout << "The element was newly inserted" ;
 else cout  << "The element was already present";
+
+```
+
+
+## List functions
+
+```
+List <String> l = new ArrayList<>();
+l.add("")
+l.size()
+l.remove("")
+l.contains("")
 
 ```

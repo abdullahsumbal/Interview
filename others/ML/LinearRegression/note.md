@@ -19,3 +19,6 @@ clf = LinearRegression()
 clf.fit(X_train, y_train)
 
 ```
+
+examples i did
+body building

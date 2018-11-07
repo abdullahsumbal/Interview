@@ -5,3 +5,4 @@ Binary classier. it only separates into two groups at a time. two groups of data
 
 So the green line is our hyperplane. If a point lays on the right of the line then it is a positive sample and vice versa.
 
+e.g breast cancer
