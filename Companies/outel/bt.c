@@ -201,7 +201,7 @@ int main(int argc, char const *argv[]) {
   kthLargestUtil(root, 2, p);
 
   printf("%d\n", maxheight(root));
-  printf("%d\n",pathLen(root, 9) );
+  printf("%d\n",pathLen(root, 3) );
   printf("%d\n",firstCommon(root, 8, 1) );
   return 0;
 }
