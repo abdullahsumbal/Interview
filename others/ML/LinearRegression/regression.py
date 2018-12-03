@@ -17,10 +17,10 @@ import psycopg2
 
 
 connection = psycopg2.connect(user= "postgres",
-    password= "bethebest1",
-    database= "sumbal",
-    host= "206.189.44.45",
-    port= "5432")
+    password= "",
+    database= "",
+    host= "",
+    port= "")
 
 cursor = connection.cursor()
 cursor.execute("""SELECT * FROM public.position """)
@@ -56,5 +56,3 @@ if (connection):
 
 # decent style
 style.use('ggplot')
-
-
