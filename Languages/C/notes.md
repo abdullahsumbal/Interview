@@ -34,7 +34,7 @@ pointers store address of a certain type of variables.  they have special operat
 4. what is an & in c?
 It is operation on the variable to get its memory address.
 
-5. Why do we need strong type when declaring pointers. int * to shore int pointer. pointer only store address. so why not use generic  types?
+5. Why do we need strong type when declaring pointers. int * to store int pointer. pointer only store address. so why not use generic  types?
 Very good question. It is useful when we are dereferencing it. for example.
 
 ```
@@ -68,6 +68,11 @@ https://www.youtube.com/watch?v=LW8Rfh6TzGg&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsas
 https://www.youtube.com/watch?v=CpjVucvAc3g&index=7&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_
 
 11. char [] vs char *
+
 char * immutable. this is like a constant. allocates the string + pointer in memory
 char [] is mutable but the first pointer is constant. allocates memory only for string.
 https://overiq.com/c-programming/101/character-array-and-character-pointer-in-c/
+
+
+12. What is segmentation fault?
+Memory access problem. reading or writing on memory location where we are not allowed to access. for example writing on NULL address.

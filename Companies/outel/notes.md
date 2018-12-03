@@ -79,3 +79,8 @@ Ans: I used 2 D flip-flops and an OR gate, first flip-flop for the delay and sec
 7. How large is an island in a 2d matrix of 1s and 0s (1=land, 0=water)
 8. A problem similar to consumer-producer problem in OS  
 9. What is static and dynamic polymorphism?  (brush up on inheritance)
+
+
+I: 0 1 1 1 0 1 1 1 0
+C: 0 1 0 1 0 1 0 1 0
+D: Q 1 1 1 1
