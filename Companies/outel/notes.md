@@ -63,4 +63,19 @@ where
 b(0) = a(1) x a(2) x a(3) .... x a(n)
 b(1) = a(0) x a(2) x a(3) ....…
 49.
-- The buildings in a a city can be represented in 2D by linear array. Given an array that represents the heights of the buildings such that the value in a specific index in the array indicates the height of the building at that location in the city. How much rain will gather in the city if it rains?  
+- The buildings in a a city can be represented in 2D by linear array. Given an array that represents the heights of the buildings such that the value in a specific index in the array indicates the height of the building at that location in the city. How much rain will gather in the city if it rains?
+
+
+
+### Second Round:
+
+1. brush up on tree? (traversal)
+2. brush up on graph? (traversal)
+3. DP
+4. C++/C concepts
+5. What do you know about Intel PSG group
+6. Draw a circuit that takes an input signal, delays it by one clock cycle and extends it to 2 clock cycles.  
+Ans: I used 2 D flip-flops and an OR gate, first flip-flop for the delay and second one for extending the high input to 2 clock cycles. OR the delayed input with the output of the second flip-flop for your final output.
+7. How large is an island in a 2d matrix of 1s and 0s (1=land, 0=water)
+8. A problem similar to consumer-producer problem in OS  
+9. What is static and dynamic polymorphism?  (brush up on inheritance)
