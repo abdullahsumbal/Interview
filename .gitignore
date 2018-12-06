@@ -10,3 +10,4 @@ full_registration_MRI.cp
 venv/
 .idea
 /dontpush
+regression.py

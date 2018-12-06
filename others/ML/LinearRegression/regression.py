@@ -17,10 +17,10 @@ import psycopg2
 
 
 connection = psycopg2.connect(user= "postgres",
-    password= "",
-    database= "",
-    host= "",
-    port= "")
+    password= "bethebest1",
+    database= "sumbal",
+    host= "206.189.44.45",
+    port= "5432")
 
 cursor = connection.cursor()
 cursor.execute("""SELECT * FROM public.position """)
