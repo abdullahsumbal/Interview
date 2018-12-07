@@ -77,4 +77,4 @@ recompiling the FPGA. DLA suits also has many primitives such as convolution ful
 ![](images/stack.JPG)
 
 ### What I want to work at?
-Inference engine. DLA plugin
+Model optimizer,  Inference engine more specific DLA plugin
