@@ -2,6 +2,7 @@
 
 # The goal of this question is to write a software library that accepts 2 version string as input and returns whether one is greater than, equal, or less than the other. As an example: “1.2” is greater than “1.1”. Please provide all test cases you could think of.
 import unittest
+import re
 
 class VersionChecker:
 
@@ -9,12 +10,27 @@ class VersionChecker:
         self.v1 = v1
         self.v2 = v2
 
+    def patternCheck(self, v):
+        m = re.match('\d\.\d\.\d|\d\.\d', v)
+        if m == None:
+            return False
+        return True
+
+    def typeCheck(self, v):
+        if not isinstance(v, str):
+            return False
+        return True
+
+
     def compare(self):
+
+        # check if both version are set
         if self.v1 == None:
             raise Exception('Please set version 1 value.')
         if self.v2 == None:
             raise Exception('Please set version 2 value.')
 
+        # comapre
         message = ""
         if self.v1 > self.v2:
             message = "v1 is greater than v2."
@@ -26,13 +42,17 @@ class VersionChecker:
         return message
 
     def setV2(self, v2):
-        if not isinstance(v2, str):
+        if not self.typeCheck(v2):
             raise Exception('v2 should be a string')
+        if not self.patternCheck(v2):
+            raise Exception('v2 does not have the correct pattern.')
         self.v2 = v2
 
     def setV1(self, v1):
-        if not isinstance(v1, str):
+        if not self.typeCheck(v1):
             raise Exception('v1 should be a string')
+        if not self.patternCheck(v1):
+            raise Exception('v1 does not have the correct pattern.')
         self.v1 = v1
 
 class TestVersion(unittest.TestCase):
@@ -109,4 +129,8 @@ class TestVersion(unittest.TestCase):
         self.assertTrue("Please set version 1 value." in str(context.exception))
 
 if __name__ == '__main__':
+    # m = re.match('^\d\.\d\.\d|\d\.\d$', "1.1.6")
+    # print(m)
+    # vChecker = VersionChecker()
+    # vChecker.setV1("1.1")
     unittest.main()
